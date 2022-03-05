@@ -27,6 +27,10 @@
 // const INCREMENT = "INCREMENT";
 // const ADD = "ADD";
 
+// // action creator
+// const increment = () => ({ type: INCREMENT });
+// const add = (amount) => ({ type: ADD, payload: amount });
+
 // // reducerFunction
 // const reducer = (state = initialState, action) => {
 //   switch (action.type) {
@@ -37,9 +41,7 @@
 //   }
 // };
 
-// // action creator
-// const increment = () => ({ type: INCREMENT });
-// const add = (amount) => ({ type: ADD, payload: amount });
+
 
 // // createStore
 // const store = createStore(reducer);
@@ -54,8 +56,8 @@
 // store.dispatch(increment());
 // store.dispatch(add(25));
 // console.log(store.getState());
-// // bindActionCreator -> it binds action with dispatch so no need to write likr -> store.dispatch
 
+// // bindActionCreator -> it binds action with dispatch so no need to write likr -> store.dispatch
 // const actions = bindActionCreators({ increment, add },store.dispatch);
 // console.log("bindActionCreator",actions)
 // actions.add(25)
